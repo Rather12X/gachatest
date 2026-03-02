@@ -18,9 +18,9 @@ const cards = {
             },
             "n2": {
                 condition: () => hasCard("standard", "n", "n1"),
-                levelCost: [5, 1.15],
-                pMult: 1.2,
-                starDiff: 0.2,
+                levelCost: [1, 0.4],
+                pMult: 0.2,
+                starDiff: 0.9,
                 effects: [
                     (level, star) => level ** ((game.cards.standard?.sr?.n2?.stars ?? 0) * .1 + 1) * star,
                 ],
@@ -29,7 +29,7 @@ const cards = {
                 }
             },
             "n3": {
-                levelCost: [10, 1.3],
+                levelCost: [1, 1.1],
                 starDiff: 0.8,
                 effects: [
                     (level, star) => level * star,
@@ -40,7 +40,7 @@ const cards = {
             },
             "n4": {
                 condition: () => hasCard("standard", "n", "n3"),
-                levelCost: [25, 2],
+                levelCost: [1, 2],
                 starDiff: 1.6,
                 effects: [
                     (level, star) => level * star * 5,
@@ -51,7 +51,7 @@ const cards = {
             },
             "n5": {
                 condition: () => hasCard("standard", "n", "n4"),
-                levelCost: [100, 1.8],
+                levelCost: [1, 1.8],
                 starDiff: 1.4,
                 effects: [
                     (level, star) => level * star * 10,
@@ -61,7 +61,7 @@ const cards = {
                 }
             },
             "n6": {
-                levelCost: [25, 2],
+                levelCost: [1, 2],
                 pMult: 0.6,
                 starDiff: 0.5,
                 effects: [
@@ -72,7 +72,7 @@ const cards = {
                 }
             },
             "n7": {
-                levelCost: [25, 2],
+                levelCost: [2, 2],
                 pMult: 0.6,
                 starDiff: 0.5,
                 effects: [
@@ -92,7 +92,7 @@ const cards = {
         r: {
             "n0": {
                 condition: () => flags.unlocked.shreds,
-                levelCost: [100000, 1.2],
+                levelCost: [1, 1.2],
                 starDiff: 0.2,
                 effects: [
                     (level, star) => level * star * 20,
@@ -103,7 +103,7 @@ const cards = {
             },
             "n0b": {
                 condition: () => hasCard("standard", "r", "n0"),
-                levelCost: [2500, 1.25, "shreds"],
+                levelCost: [2, 1.25, "shreds"],
                 starDiff: 0.3,
                 effects: [
                     (level, star) => level * star * 20,
@@ -113,7 +113,7 @@ const cards = {
                 }
             },
             "n1": {
-                levelCost: [100000, 1.3],
+                levelCost: [1, 1.3],
                 pMult: 1.2,
                 effects: [
                     (level, star) => 40 + level * [0, 10, 20, 40, 80, 160][star],
@@ -124,7 +124,7 @@ const cards = {
             },
             "n1b": {
                 condition: () => flags.unlocked.shreds,
-                levelCost: [1000, 1.12, "shreds"],
+                levelCost: [1, 1.12, "shreds"],
                 pMult: 1.2,
                 starDiff: 0.2,
                 effects: [
@@ -136,7 +136,7 @@ const cards = {
             },
             "n2": {
                 condition: () => hasCard("standard", "n", "n3") && flags.unlocked.zip,
-                levelCost: [200000, 2],
+                levelCost: [2, 2],
                 starDiff: 0.9,
                 effects: [
                     (level, star) => 20 + level * star * 5,
@@ -149,7 +149,7 @@ const cards = {
             },
             "n3": {
                 condition: () => hasCard("standard", "n", "n4") && flags.unlocked.zip,
-                levelCost: [250000, 1.8],
+                levelCost: [2, 1.8],
                 starDiff: 0.8,
                 effects: [
                     (level, star) => 20 + level * star * 5,
@@ -162,7 +162,7 @@ const cards = {
             },
             "n3b": {
                 condition: () => hasCard("standard", "r", "n3") && flags.unlocked.shreds,
-                levelCost: [1000, 1.4, "shreds"],
+                levelCost: [1, 1.4, "shreds"],
                 pMult: 0.8,
                 maxLevel: 40,
                 starDiff: 1.2,
@@ -176,7 +176,7 @@ const cards = {
             "n3c": {
                 condition: () => hasCard("standard", "r", "n3b"),
                 pMult: 0.8,
-                levelCost: [1000, 1.3, "shreds"],
+                levelCost: [1, 1.3, "shreds"],
                 maxLevel: 75,
                 starDiff: 0.9,
                 effects: [
