@@ -3,6 +3,7 @@ const cards = {
         n: {
             "n0": {
                 maxLevel: 0,
+                crown: true,
                 effects: [],
                 effectors: {}
             },
