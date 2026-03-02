@@ -5,9 +5,9 @@ const baseEffect = {
     bulkMultBonus: 1,
 
     cardRChance: 1e-3,
-    cardSRChance: 0.99999e-5,
-    cardSSRChance: 0.99999e-7,
-    cardURChance: 0.99999e-9,
+    cardSRChance: 0.99999e-4,
+    cardSSRChance: 0.99999e-5,
+    cardURChance: 0.99999e-6,
 
     energyCap: 10,
     energySpeed: 1,
