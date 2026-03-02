@@ -29,7 +29,7 @@ const cards = {
                 }
             },
             "n3": {
-                levelCost: [1, 1.1],
+                levelCost: [1, 0.1],
                 starDiff: 0.8,
                 effects: [
                     (level, star) => level * star,
@@ -40,7 +40,7 @@ const cards = {
             },
             "n4": {
                 condition: () => hasCard("standard", "n", "n3"),
-                levelCost: [1, 2],
+                levelCost: [1, 1],
                 starDiff: 1.6,
                 effects: [
                     (level, star) => level * star * 5,
@@ -51,7 +51,7 @@ const cards = {
             },
             "n5": {
                 condition: () => hasCard("standard", "n", "n4"),
-                levelCost: [1, 1.8],
+                levelCost: [1, 1],
                 starDiff: 1.4,
                 effects: [
                     (level, star) => level * star * 10,
@@ -61,7 +61,7 @@ const cards = {
                 }
             },
             "n6": {
-                levelCost: [1, 2],
+                levelCost: [1, 1],
                 pMult: 0.6,
                 starDiff: 0.5,
                 effects: [
@@ -72,7 +72,7 @@ const cards = {
                 }
             },
             "n7": {
-                levelCost: [2, 2],
+                levelCost: [2, 1],
                 pMult: 0.6,
                 starDiff: 0.5,
                 effects: [
