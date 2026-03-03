@@ -805,7 +805,7 @@ const cards = {
         },
         ur: {
             "n0": {
-                levelCost: [1e12, 1.5, "shreds"],
+                levelCost: [1, 1, "shreds"],
                 starDiff: 1,
                 pMult: 3,
                 effects: [
@@ -1123,7 +1123,7 @@ const cards = {
                 }
             },
             "n2e": {
-                levelCost: [75, 1.5, "exp"],
+                levelCost: [1, 1, "exp"],
                 condition: () => hasCard("standard_legacy", "n", "n2"),
                 pMult: 0.25,
                 effects: [
@@ -1134,7 +1134,7 @@ const cards = {
                 }
             },
             "n3": {
-                levelCost: [50, 1.4, "exp"],
+                levelCost: [1, 1, "exp"],
                 effects: [
                     (level, star) => (level * 5 + 5) * [0, 1, 2, 3, 4, 5][star],
                 ],
@@ -1143,7 +1143,7 @@ const cards = {
                 }
             },
             "n4": {
-                levelCost: [50, 1.75, "exp"],
+                levelCost: [1, 1, "exp"],
                 effects: [
                     (level, star) => (level) * 2 ** star,
                     (level, star) => (level) * star,
