@@ -7,15 +7,15 @@ function getNewGame() {
         id: randomStr(16),
         version: 0,
         res: {
-            points: 0,
-            shreds: 0,
+            points: 230000,
+            shreds: 50000,
             energy: 0,
 
-            fire: 0,
-            water: 0,
-            leaf: 0,
-            sun: 0,
-            moon: 0,
+            fire: 60000,
+            water: 60000,
+            leaf: 60000,
+            sun: 60000,
+            moon: 60000,
 
             money: 0,
             exp: 0,
