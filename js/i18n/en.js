@@ -1051,7 +1051,7 @@ let i18nDefault = i18nStrings.en = {
                 n0: {
                     name: "mom",
                     desc: "{+0%} base bulk, bulk power, energy cap, and card multiplier.<br>{+1%} shred gain.<br>{x2} point gain.",
-                    quote: "<rarity rarity='ur'></rarity> mom's so buffed she's the strongest unit in the game"
+                    quote: "<rarity rarity='ur'></rarity> mom's so buffed she's the strongest unit in the gam- wait a minute... how do you get this too early?"
                 },
                 n1a: {
                     name: "Multi-Fire",
