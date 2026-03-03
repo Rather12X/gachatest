@@ -4,7 +4,7 @@ const baseEffect = {
     bulkMult: 1,
     bulkMultBonus: 1,
 
-    cardRChance: 1e-2,
+    cardRChance: 100,
     cardSRChance: 1e-3,
     cardSSRChance: 5e-3,
     cardURChance: 1e-4,
