@@ -87,7 +87,7 @@ const flags = {
         points: false,
         shreds: false,
         energy: false,
-        market: false,
+        market: true,
         zip: false,
         faction: false,
         skills: false,
