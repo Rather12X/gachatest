@@ -965,7 +965,7 @@ const cards = {
             "zip": {
                 available: () => !hasCard("standard_legacy", "ex", "zip"),
                 crown: true,
-                buyCost: [8000, "points"],
+                buyCost: [80, "points"],
                 effects: [],
                 effectors: {
                     revealTime: [priority.multiplicative, (x) => x * 2]
@@ -996,7 +996,7 @@ const cards = {
             "faction": {
                 condition: () => game.cards.standard?.sr && flags.unlocked.shreds,
                 crown: true,
-                buyCost: [2.5e9, "shreds"],
+                buyCost: [2.3e8, "shreds"],
                 effects: [],
                 effectors: {}
             },
@@ -1035,14 +1035,14 @@ const cards = {
             "skills": {
                 condition: () => game.cards.standard?.ssr && flags.unlocked.faction,
                 crown: true,
-                buyCost: [1e20, "points"],
+                buyCost: [1e10, "points"],
                 effects: [],
                 effectors: {}
             },
             "skills2": {
                 condition: () => game.stats.reactionCount > 0,
                 crown: true,
-                buyCost: [1e30, "points"],
+                buyCost: [1e12, "points"],
                 effects: [],
                 effectors: {}
             },
@@ -1051,7 +1051,7 @@ const cards = {
     standard_legacy: {
         n: {
             "n0": {
-                levelCost: [50, 1.15, "exp"],
+                levelCost: [1, 1, "exp"],
                 effects: [
                     (level, star) => level ** (0.9 + 0.1 * star) * 2 ** star * 50,
                 ],
@@ -1060,7 +1060,7 @@ const cards = {
                 }
             },
             "n1": {
-                levelCost: [50, 1.2, "exp"],
+                levelCost: [1, 1, "exp"],
                 effects: [
                     (level, star) => level ** (0.7 + 0.1 * star) * 2 ** star * 40,
                 ],
@@ -1069,7 +1069,7 @@ const cards = {
                 }
             },
             "n2": {
-                levelCost: [50, 1.25, "exp"],
+                levelCost: [1, 1, "exp"],
                 pMult: 0.25,
                 effects: [
                     (level, star) => level ** (0.4 + 0.1 * star) * 2 ** star * 30,
@@ -1079,7 +1079,7 @@ const cards = {
                 }
             },
             "n2a": {
-                levelCost: [75, 1.5, "exp"],
+                levelCost: [1, 1, "exp"],
                 condition: () => hasCard("standard_legacy", "n", "n2"),
                 pMult: 0.25,
                 effects: [
@@ -1090,7 +1090,7 @@ const cards = {
                 }
             },
             "n2b": {
-                levelCost: [75, 1.5, "exp"],
+                levelCost: [1, 1, "exp"],
                 condition: () => hasCard("standard_legacy", "n", "n2"),
                 pMult: 0.25,
                 effects: [
@@ -1101,7 +1101,7 @@ const cards = {
                 }
             },
             "n2c": {
-                levelCost: [75, 1.5, "exp"],
+                levelCost: [1, 1, "exp"],
                 condition: () => hasCard("standard_legacy", "n", "n2"),
                 pMult: 0.25,
                 effects: [
@@ -1112,7 +1112,7 @@ const cards = {
                 }
             },
             "n2d": {
-                levelCost: [75, 1.5, "exp"],
+                levelCost: [1, 1, "exp"],
                 condition: () => hasCard("standard_legacy", "n", "n2"),
                 pMult: 0.25,
                 effects: [
