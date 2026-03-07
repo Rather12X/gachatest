@@ -435,7 +435,7 @@ let i18nDefault = i18nStrings.en = {
 
                 action_activate: "Activate",
                 action_activated: "Activated",
-                action_inCooldown: "In cooldown ({0})"
+                action_inCooldown: "Back in ({0})"
             }
         },
         pack: {
@@ -456,7 +456,7 @@ let i18nDefault = i18nStrings.en = {
         },
         ad: {
             strings: {
-                sponsored: ["“Sponsored”", "“Promoted”", "“Advertisement”"],
+                sponsored: ["“Sponsored”", "“Promoted”", "“Advertisement”", "“Not an ad”"],
                 taunts: {
                     generic: [
                         "Complete this level to end ad early",
@@ -464,7 +464,8 @@ let i18nDefault = i18nStrings.en = {
                         "I sold my soul to reach pink color",
                         "Most relaxing game!",
                         "Harder than it looks",
-                        "You:"
+                        "You:",
+                        "This is an 'real' ad...."
                     ],
                     puzzle: [
                         "If you complete this puzzle, you're legally skilled",
@@ -473,17 +474,19 @@ let i18nDefault = i18nStrings.en = {
                         "I bet you can't solve this puzzle",
                         "Can you solve this puzzle?",
                         "I sold my soul to complete this puzzle",
+                        "This is an 'real' ad...."
                     ],
                     completed: [
                         "You did it!",
                         "Amazing!",
                         "Congratulations!",
+                        "Huh.... you realised this is an 'real' ad...",
                     ],
                 }
             },
 
-            action_close: "Close “Ad”",
-            action_closeIn: "Close in {0}",
+            action_close: "Back to reality",
+            action_closeIn: "Close in {0} (if you pass, you can go early)",
         },
         badge: {
             strings: {
