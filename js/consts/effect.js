@@ -33,7 +33,7 @@ const baseEffect = {
     leafDrawMult: 1,
     sunDrawMult: 1,
     moonDrawMult: 1,
-    factionMult: 1,
+    factionMult: 100000,
     factionChance: 1e-3,
 
     cooldownTime: 3,
