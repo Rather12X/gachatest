@@ -34,7 +34,7 @@ const baseEffect = {
     sunDrawMult: 1,
     moonDrawMult: 1,
     factionMult: 1,
-    factionChance: 1e-6,
+    factionChance: 1e-3,
 
     cooldownTime: 3,
     breakTime: 5,
