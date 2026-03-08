@@ -1,8 +1,8 @@
 const baseEffect = {
     bulk: 1,
     bulkPower: 0,
-    bulkMult: 10,
-    bulkMultBonus: 10,
+    bulkMult: 2,
+    bulkMultBonus: 0,
 
     cardRChance: 1e-3,
     cardSRChance: 0.99999e-4,
@@ -14,7 +14,7 @@ const baseEffect = {
     
     points: 0,
     pointsExtra: 0,
-    pointsMult: 1,
+    pointsMult: 2,
 
     shredMult: 1,
     shredRMult: 1,
