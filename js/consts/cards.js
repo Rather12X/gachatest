@@ -9,7 +9,7 @@ const cards = {
             },
             "n1": {
                 levelCost: [1, 1.00000004],
-                pMult: 1.2,
+                pMult: 4,
                 effects: [
                     (level, star) => level ** ((game.cards.standard?.sr?.n1?.stars ?? 0) * .1 + 1) * star,
                 ],
