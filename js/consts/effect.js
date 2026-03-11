@@ -52,7 +52,7 @@ const baseEffect = {
     skillWaterGain: 2,
     skillWaterCard: 1,
     skillWaterCard2: 1,
-    skillWaterWait: 10,
+    skillWaterWait: 2,
     skillWaterSpeed: 1,
     skillWaterCooldown: 240,
     skillLeafMult: 2,
@@ -70,8 +70,8 @@ const baseEffect = {
     offlineLimit: 0,
     offlineLimitStrength: 0.4,
 
-    legacyDrawCount: 5,
-    legacyPickCount: 4,
+    legacyDrawCount: 6,
+    legacyPickCount: 1,
 
     adCooldown: 450,
     adRerollCost: 1,
