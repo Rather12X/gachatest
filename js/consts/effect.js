@@ -33,7 +33,7 @@ const baseEffect = {
     leafDrawMult: 1,
     sunDrawMult: 1,
     moonDrawMult: 1,
-    factionMult: 100000,
+    factionMult: 1000000000000000000,
     factionChance: 1e-3,
 
     cooldownTime: 3,
@@ -48,7 +48,7 @@ const baseEffect = {
 
     skillFireSkip: 60,
     skillFireStack: 1,
-    skillFireCooldown: 120,
+    skillFireCooldown: 10,
     skillWaterGain: 2,
     skillWaterCard: 1,
     skillWaterCard2: 1,
@@ -62,7 +62,7 @@ const baseEffect = {
     skillSunBuff: 2,
     skillSunDebuff: 10,
     skillSunDup: 0,
-    skillSunCooldown: 300,
+    skillSunCooldown: 30,
     skillMoonBuff: 5,
     skillMoonDebuff: 2,
     skillMoonCooldown: 600,
@@ -73,7 +73,7 @@ const baseEffect = {
     legacyDrawCount: 3,
     legacyPickCount: 1,
 
-    adCooldown: 900,
+    adCooldown: 450,
     adRerollCost: 1,
     adPointBoost: 4,
     adShredBoost: 3,
