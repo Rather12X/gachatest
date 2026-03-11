@@ -70,8 +70,8 @@ const baseEffect = {
     offlineLimit: 0,
     offlineLimitStrength: 0.4,
 
-    legacyDrawCount: 3,
-    legacyPickCount: 1,
+    legacyDrawCount: 5,
+    legacyPickCount: 4,
 
     adCooldown: 450,
     adRerollCost: 1,
